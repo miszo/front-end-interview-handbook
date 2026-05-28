@@ -10,6 +10,23 @@ Find more company guides on [GreatFrontEnd](https://www.greatfrontend.com/interv
 
 :::
 
+## JavaScript coding questions
+
+- Implement Squash Object — flatten a nested object into a single-level object with dot-separated keys.
+  - [Practice question](https://www.greatfrontend.com/questions/javascript/squash-object?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Free)
+- Evaluate a basic arithmetic expression string like `"1+3-2"` and print the output. Handle all edge cases (no BODMAS required).
+- Find common elements between two arrays — e.g. `arr1 = [1, 2, 2, 4, 5]`, `arr2 = [3, 2, 4, 2]` → `[2, 2, 4]`. Follow-up: extend to matrices instead of two arrays.
+
+## User interface coding questions
+
+- Debug a React app: functionality is missing — fix it and make the app work end-to-end.
+
+## System design questions
+
+- Design the frontend of a Jira board.
+- Design a backend system to block bot requests.
+- Design a backend system for a URL shortener (paired with discussing the high-level frontend architecture of the app you currently work on).
+
 ## Insider tips from the GreatFrontEnd community
 
 These tips were shared by [GreatFrontEnd](https://www.greatfrontend.com/?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) users who have completed interviews with Oracle.

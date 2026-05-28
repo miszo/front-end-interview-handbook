@@ -9,9 +9,40 @@ Find the latest version of this page on [GreatFrontEnd's Atlassian Front End Int
 
 :::
 
+## JavaScript coding questions
+
+The Karat screen opens with rapid-fire trivia. Be able to talk about all of these from memory, no resources allowed:
+
+- Analyze arrays — know `push`, `pop`, `unshift` from memory.
+- Know `Promise.any` from memory.
+  - [Practice question](https://www.greatfrontend.com/questions/javascript/promise-any?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Free)
+- Know async generators, `await`, `yield`, `async for await` loop, and `Promise.resolve`.
+
+## User interface coding questions
+
+- Build a custom search widget — HTML and CSS only. Resources allowed. Constraint: no hardcoded height or width — use `em` or `%`.
+- Fetch todos from an API and render 20 at a time. The dummy API takes params to control how many you get. Use `fetch` with no helper libraries; brush up on creating, appending, and removing DOM elements.
+  - [Practice question](https://www.greatfrontend.com/questions/user-interface/todo-list?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Free)
+- Code up a widget in React (in-browser coding round).
+- Code up a utility in JS.
+- Design a cookie consent banner.
+
+## System design questions
+
+- Design a Jira sprint board.
+- Design a performance benchmarking utility.
+
 ## Insider tips from the GreatFrontEnd community
 
 These tips were shared by [GreatFrontEnd](https://www.greatfrontend.com/?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) users who have completed interviews with Atlassian.
+
+**2nd Oct 2025**:
+
+> My Atlassian browser coding round was in React. The interviewer set up the HackerRank link in TypeScript — I wanted plain JavaScript but he insisted we stayed with TS, so be ready for either. I'd practiced with React + TypeScript via Vite, which helped. (Ex-Atlassian here — React is the internal stack.)
+
+**1st Aug 2025**:
+
+> For the JS coding round I was asked to design a cookie consent banner. For system design, the most frequent question I've seen lately is "design a Jira sprint board" — there's a good YouTube walkthrough on it. With how many people are interviewing at Atlassian recently they may be rotating questions, so don't expect the exact same Jira board everyone else got.
 
 **16th Jun 2025**:
 
@@ -36,25 +67,5 @@ These tips were shared by [GreatFrontEnd](https://www.greatfrontend.com/?utm_sou
 **27th Apr 2025**:
 
 > As far as I know for all levels, Atlassian has a very strong emphasis on Vanilla JavaScript and Front End System Design. In your case you will probably be not given a lot of details because rarely we see Front End Engineers at Principal level. (You are one of the 5 I am hearing/seeing about)
-
-**16th Mar 2025**:
-
-> Based out of BLR, got an offer from Atlassian for a front-end principal role (P60).
->
-> GreatFrontEnd has helped me a lot in practicing and getting over interview anxiety. Especially the RADIO framework for system design rounds (the more senior you get, more system design rounds start to matter).
->
-> Atlassian has a well documented interview process, that can be easily found with some basic searching on the internet. Your recruiter will help you a lot in setting expectations for the upcoming round.
->
-> I had 5 rounds:
->
-> Round 1: code up a widget in React (browser coding round) Round 2: code up a utility in JS Round 3: system design round Round 4: leadership craft round Round 5: values and principles round
->
-> Atlassian relies more on follow-up / scale up questions. Instead of focusing on specific solution to a specific problem, you have to expect interviewer to keep changing the requirements and keep making the problem more and more complex.
->
-> You would be able to solve the first problem in a round easily. But if your initial solution requires a major overhaul when the follow-up question tweaks the requirement, that 's a red flag for the interview feedback.
->
-> Practicing GreatFrontEnd helped me solidify ton of concepts, and helped me feel comfortable in my skin during interviews.
->
-> Almost no company interviews candidates in an in-browser coding interview environment like GreatFrontEnd. So I used to practice setting up the problem with test cases locally in VSCode. Used Bun and Vite heavily, to avoid spending time configuring test runner, bundlers etc.
 
 For more insider tips, visit [GreatFrontEnd](https://www.greatfrontend.com/?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook)!

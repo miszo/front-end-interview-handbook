@@ -4,9 +4,47 @@ sidebar_label: Adobe interview questions
 description: Adobe Front End Interview Questions guide with real interview experiences, coding challenges, and insider tips for 2025.
 ---
 
+:::info Latest version on GreatFrontEnd
+
+Find the latest version of this page on [GreatFrontEnd's Adobe Front End Interview Guide](https://www.greatfrontend.com/interviews/company/adobe/questions-guides?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook).
+
+:::
+
+## JavaScript coding questions
+
+- Given an API `getAllLinks(url)` that returns all the links on a page, write a function that returns all descendant links (child URLs of child URLs, etc.). Handle edge cases: circular dependencies, `getAllLinks` returning a promise, async efficiency, and time complexity.
+- Implement a polyfill of `Array.prototype.reduce`.
+  - [Practice question](https://www.greatfrontend.com/questions/javascript/array-reduce?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Free)
+- Find the leaders in an array (every element greater than all elements to its right).
+- Implement a custom React hook that uses `setInterval`. Common gotcha: the interval double-fires unless you keep the callback in a `useRef` instead of `useState`.
+
+## User interface coding questions
+
+- Build an accordion using vanilla JS or React.
+  - [Practice question](https://www.greatfrontend.com/questions/user-interface/accordion?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Free)
+- Given a top-header design of a document, implement it as a React component.
+- Flood fill algorithm on an m × n grid that has outlines of shapes. Clicking inside a shape fills only that shape; clicking outside fills the whole grid except the shapes. Pseudocode is acceptable.
+
+## System design questions
+
+- Design an LRU cache (the round is non-frontend system design).
+- Design the classes and interfaces for a chess game (OOD).
+
 ## Insider tips from the GreatFrontEnd community
 
 These tips were shared by [GreatFrontEnd](https://www.greatfrontend.com/?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) users who have completed interviews with Adobe.
+
+**25th Sep 2025**:
+
+> I did the Adobe FE loop (Firefly team — half the interviewers were from that team and half were helpers from other teams). 5 rounds total:
+>
+> 1. Pre-onsite — rapid fire questions across different tech stacks they find important, plus debugging an app and discussing performance improvements.
+> 2. Architecture round. In the last 10 minutes the interviewer asked a gotcha question to code a recursive API call. I'd been using SSR GraphQL for the last 3 years and blanked on how to handle the return value in the setTimeout without a side-effect variable, so I didn't finish (he said I got 95% done).
+> 3. Behavioral / tech discussion — no coding.
+> 4. Chat plus a custom React hook that required setInterval. Interviewer thought the code was functional but the interval wouldn't clear properly and randomly ran twice in the editor — turns out the React fix is to use `useRef` instead of `useState` for setInterval.
+> 5. Manager chat.
+>
+> Feedback: everyone liked me but they said I had gaps on React and REST APIs based on the two issues above. Overall simpler than leetcode-obsessed companies — prep React quirks and you should be fine.
 
 **19th Jun 2025**:
 

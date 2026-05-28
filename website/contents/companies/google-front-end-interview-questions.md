@@ -34,12 +34,15 @@ Refer to Google's official interview preparation guides for:
 - How do you make a function that only calls input function f every 50 milliseconds?
   - [Practice question](https://www.greatfrontend.com/questions/javascript/throttle?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Paid)
 - Given a timeline write the JavaScript to select all nodes within selection of timeline.
+- File System API question paired with a streaming API problem implemented with generators (DSA round).
+- Build a feature like a button in vanilla JavaScript inside a Google Doc (no ability to execute code — live coding in a doc).
 
 ## User interface coding questions
 
 - Design a slider component.
 - Design a Tic-Tac-Toe game/design an algorithm for Tic-Tac-Toe game.
-  - [Practice question](https://www.greatfrontend.com/questions/user-interface/tic-tac-toe?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Paid)
+  - [Practice question](https://www.greatfrontend.com/questions/user-interface/tic-tac-toe?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Free)
+- Implement a color swatch component. Follow-up: add a slider control.
 - Implement nested checkboxes (when the parent is checked, children are checked and vice versa. Use `<input type="checkbox">`). Similar to [Indeterminate checkboxes](https://css-tricks.com/indeterminate-checkboxes/).
 - Design a webpage which can auto load new posts when you reach the bottom of the page by using JavaScript. You may use AJAX and JavaScript event listeners.
 - Write a UI using HTML, CSS, JavaScript that allows uses to enter the number of rows and columns in text input fields within a form and renders a table.
@@ -80,6 +83,10 @@ _Source: [Glassdoor Google Front End Software Engineer Interview Questions](http
 
 These tips were shared by [GreatFrontEnd](https://www.greatfrontend.com/?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) users who have completed interviews with Google.
 
+**24th Oct 2025**:
+
+> Just signed my offer from Google. None of my interview questions were tagged — you'll hear from lots of people that Google has a huge test bank, so just prepare yourself with NeetCode 150 and really deeply understand the solutions. Don't just memorize; if you can't solve LC problems you haven't seen before, you'll get caught. I had 2 interviews with regular LC-style problems at around medium difficulty.
+
 **5th Apr 2025**:
 
 > Interview experience at Google L4 frontend role - Offer Accepted
@@ -102,9 +109,5 @@ These tips were shared by [GreatFrontEnd](https://www.greatfrontend.com/?utm_sou
 **20th Dec 2024**:
 
 > DSA is fair game throughout the entire google experience easy, medium, hard, all fair game
-
-**10th Nov 2024**:
-
-> I interviewed a few years ago. At that time it was mostly DSA and 1 round involved frontend design with some coding HTML, CSS, JS. But I echo what others have said. Google's FE is DSA heavy.
 
 For more insider tips, visit [GreatFrontEnd](https://www.greatfrontend.com/?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook)!

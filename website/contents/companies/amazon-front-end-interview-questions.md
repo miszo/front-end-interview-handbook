@@ -121,8 +121,13 @@ Questions sourced from the web and the [GreatFrontEnd](https://www.greatfrontend
 - Given an object and a filter function, write a function that recursively filters the object, returning only values which return `true` when called with the filter function (like `Array.prototype.filter` but for objects).
 - Implement a function `getElementsByStyle(property, value)` that returns all elements in the DOM that match that style.
   - E.g. `getElementsByStyle("color", "#fff")` will return all elements in the DOM with white text.
-  - [Practice question](https://www.greatfrontend.com/questions/javascript/get-elements-by-class-name?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Paid)
+  - [Practice question](https://www.greatfrontend.com/questions/javascript/get-elements-by-style?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Free)
 - Promisify a function.
+  - [Practice question](https://www.greatfrontend.com/questions/javascript/promisify?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Free)
+- Implement `JSON.stringify` (OOP-style flavor of the question has come up recently).
+  - [Practice question](https://www.greatfrontend.com/questions/javascript/json-stringify?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Free)
+- Build a relative-time / date component: given a date, display "just now", "less than a minute ago", "n days ago", "n weeks ago", "n months ago", "n years ago". Comparing `Date.now()` with the passed date is the expected approach.
+- Implement a method to sanitize input data from a nested Form UI.
 
 ### User interface coding questions
 
@@ -144,16 +149,45 @@ Questions sourced from the web and the [GreatFrontEnd](https://www.greatfrontend
 - Implement a chess board with movable pieces
 - How do you render text on a banner image?
 - Render a directory tree given a nested JSON object
+- Implement an image carousel in vanilla JS.
+  - [Practice question](https://www.greatfrontend.com/questions/user-interface/image-carousel?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Free)
+- Implement infinite scroll on a list of addresses, with follow-ups on pagination, different devices, slow networks, and error handling.
+- Build an accordion where by default only one section is open at a time; a checkbox switches behavior to allow multiple sections to be expanded.
+  - [Practice question](https://www.greatfrontend.com/questions/user-interface/accordion?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Free)
+- Address book form: validate name, email, and phone number, append valid entries to a table, plus an input that filters the table by phone number.
+- Build a to-do app (Add / Remove / Edit todos).
+  - [Practice question](https://www.greatfrontend.com/questions/user-interface/todo-list?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Free)
+- FAQ-page accordion with 1000 questions, like counts per question, and pagination over the list. Discuss API endpoints needed.
+- Chess grid: an n × n grid of cells where clicking highlights the cell (unhighlighting any previously selected one). Focus on reusability, extensibility, and optimisation.
+- Auto-suggest dropdown with debounce — implement the HTML/CSS for an input plus a few search-result items, then add debounced fetching as a follow-up.
 
 ### System design questions
 
 - Design a restaurant listing application where user can make orders and customize their orders by adding additional stuffs like toppings, salads etc. [Source](https://leetcode.com/discuss/post/1984996/amazon-virtual-onsite-april-2022-fronten-qiku/)
 - Design an accordion component.
   - [Practice question](https://www.greatfrontend.com/questions/user-interface/accordion?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Paid)
+- Design a news website like Times of India. Focus on schema and API design, backend interaction, video rendering, and showing ads.
+  - [Read answer](https://www.greatfrontend.com/questions/system-design/news-feed-facebook?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Free)
+- Design a mobile playlist page (music streaming).
+  - [Read answer](https://www.greatfrontend.com/questions/system-design/music-streaming-spotify?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Paid)
+- Design a bike-sharing system (e.g. Citi Bike).
+- Design an SDK in JavaScript implementing throttling and retry strategies. Focus on defining contracts that consumers will adhere to — feels like a mix of system design and coding.
+- Design a check-in app for a clinic given a mock-up. Focus on endpoints needed to integrate frontend and backend, pagination, load balancing.
 
 ## Insider tips from the GreatFrontEnd community
 
 These tips were shared by [GreatFrontEnd](https://www.greatfrontend.com/?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) users who have completed interviews with Amazon.
+
+**8th Nov 2025**:
+
+> Sharing my Amazon FE onsite loop (online):
+>
+> - DSA round: a really hard problem I couldn't find online (felt similar to LeetCode 772 "Basic Calculator III"). Totally bombed this.
+> - Auto search question: input box and a few search result items in a dropdown. They asked me to write only the HTML and CSS, but I mentioned "debounce" a few times and the interviewer asked me to implement it too.
+> - Date component: relative time display — I compared `Date.now()` against the passed date.
+> - System design: didn't handle the part about speeding up rendering well. I mentioned lazy loading, server-side rendering, static pages, loading properly sized images — but list virtualization didn't come to mind and the interviewer kept hinting.
+>
+> Yes, Amazon onsite does include a DSA round for frontend — either I had bad luck or it's standard now.
 
 **20th May 2025**:
 
@@ -199,113 +233,5 @@ These tips were shared by [GreatFrontEnd](https://www.greatfrontend.com/?utm_sou
 > - R2 DSA: Given a two caption strings and a similar words dict, find if the captions are same or not
 > - R3 HLD FE: Design a News website like Times of India, more focus on schema & api design and BE interation, Video rendering, showing Ads
 > - R4 HM: mostly LP questions
-
-**15th Mar 2025**:
-
-> hey all, I recently did an interview loop for Amazon (AWS) FEE L5! didn't get the job but sharing my experience here:
->
-> 1. asteroid collision (leetcode)
-> 2. bike sharing system design (like citibike in nyc)
-> 3. find most common 3-page user sequence from traffic logs
-> 4. bar raiser
-> 5. tabs component (GreatFrontEnd)
->
-> Each technical round had 2BQ in the beginning, and then the bar raiser round had like 8BQ?
->
-> One thing to note was that recruiter explicitly told me I could code in react, but then during the interview they restricted it to only html/css/vanilla js... not a huge issue but did differ from what my recruiter told me 😵
-
-**5th Mar 2025**:
-
-> Hello everyone, I’m grateful for all the help from this group! I recently received an offer for a Frontend Engineer-1 position at Amazon and wanted to share my experience. I completed my MS in Dec 2024 and had been applying for general SDE and frontend roles without much success. I applied for a Frontend position in Amazon’s Early Grad Program on Jan 31, and here’s how it went:
->
-> - Feb 3 – Received an online assessment with two JavaScript questions (an accordion and another DOM-based component) and a work-style test.
-> - Feb 7 – Completed the OA and was invited to schedule my phone screen.
-> - Feb 14 (Phone Screen) – First 30 mins: Behavioral questions (no follow-ups; use the STAR method with explicit metrics). Next 30 mins: Implement an image carousel (explain logic, write basic code, no need to run it). Passed and moved to the loop.
-> - Feb 21 (Loop Rounds) – I was lucky in a way because only two rounds were scheduled with a 1-hour gap in between, as they couldn't find an interviewer for the middle slot.
->   - Round 1: Rotting Oranges DSA question + extensive behavioral follow-ups. My behavioral round didn’t go well, and I was a bit nervous afterward.
->   - Round 2: Three behavioral questions + build a To-Do app with two easy follow-ups.
-> - Feb 26 (Final Round) – The interviewer was pretty chill and asked four behavioral questions. Since I had time between my initial two interviews and this one, I was able to prepare my behavioral responses well. For the technical part, I was given a verbose array-based DSA question, where I provided both the brute force and optimized solutions.
-> - Feb 28 – Received my offer! Hope this helps, and good luck to everyone interviewing.
-
-**17th Feb 2025**:
-
-> My experience for L5 FEE onsite:
->
-> 1. Implement autocomplete component
-> 2. System design - mobile designing for playlist page
-> 3. Implement json.stringify (more weight on OOP angle here)
-> 4. Implement method to sanitize input data from nested Form UI.
->
-> All questions were on plain text editor, no need to compile and run
->
-> Behavior questions before every round to cover 2 LP, and a 5th interview just for LPs
-
-**25th Jan 2025**:
-
-> okay so i just did my phone screen with amazon: 1 LP about anticipating customer needs. Some JS trivia questions, looking at css to determine specificity. that was the first 30 min. coding was just a blank text editor: to implement an infinite scroller on addresses but i didnt really recognize it was a system design question until i was already in it.
-
-**2nd Nov 2024**:
-
-> Amazon FEE II Phone interview:
->
-> LP: There were five questions, though I don’t remember all of them precisely. The questions is like ... going above and beyond for a customer, managing tight timelines, handling conflicts with a manager, and describing a project I’m most proud of.
->
-> The interviewer mentioned that they asked several questions because I hadn’t initially provided enough detail in my responses 😦 .
->
-> Coding Challenge: implementing a table similar to the Data Table in GreatFrontEnd, with three follow-ups:
->
-> - Enable sorting functionality to activate when clicking on a column header.
-> - Add a search bar to filter by name.
-
-**30th Oct 2024**:
-
-> Completed my Amazon FEE-I loop a while ago. Waiting for a decision but here's how it went.
->
-> LP questions - difficult customer, time when you were not satisfied with result. Didn't repeat any story but had very few of them because I'm a new grad. Make sure you have good amount of stories, try not to repeat.
->
-> Technical questions - 2 implementations questions and 1 general/JS question, very similar to what others went through actually.
->
-> My phone interview had an array question which was pretty simple but it took me sometime to get it.
->
-> Like Button, File Explorer and print this object of objects in the form of a HTML tree. They all started with the most basic part, very barebones implementation required. If time remains, they ask you to add more stuff to it. If you go through GreatFrontEnd's questions you should be more than ready for it imo.
-
-**21st Sep 2024**:
-
-> Finished my Amazon FEE I/new grad/entry level interviews. Waiting to hear back right now, but this is what I experienced:
->
-> (Caveat: my interview was for a specific team, unlike a lot of general SDE/SWE new grad interviews I've asked about where it wasn't team-specific. I'm not too sure if this equally extends to FEE normally, but that's just what ended up happening.)
->
-> **Behavioral**: Topics mostly concentrated around the LPs of Customer Obsession, Learn and Be Curious, Ownership, and Earn Trust.
->
-> - Got a repeat question in one of my rounds, so I repeated one of the stories I used earlier because I don't have enough experience to have another story for that specific question 🥲.
->
-> **Technical**: Received 2 implementation questions: Like Button and File Explorer, and 1 general-ish JS question (given a form, create a function that has parses the values in the form inputs and returns the form data as an object with nested properties). The implementation questions were basically the same/easier than GreatFrontEnd's version. The JS question is a tad reminiscent of GreatFrontEnd's "get" question + knowing how to get form values. IMO I flubbed this from getting caught off-guard from how it was described, followed by my brain suddenly forgetting how to program because of the embarrassment/panic 🫠 Still, it was a very simple question overall that is probably fairly easy to solve.
->
-> Additional Notes:
->
-> - Coding was in plain text editor/coderpad-style
-> - Allowed to choose any framework for the implementation q'ns
-> - Roughly 20-25min for behavioral, 30min for coding
-> - No bar raiser round. Amazon just recently announced in early August that they re-implemented this for entry-level/new grad after removing it sometime in 2022/2023, but apparently this change didn't get reflected in my specific process
->
-> Result: Received the offer! 🥳
-
-**20th Sep 2024**:
-
-> hey everyone, I wanted to share my Amazon FE II onsite interviewing experience, thank you to everyone on this server and the GreatFrontEnd team
->
-> Amazon FE II onsite:
->
-> - Behavioural: im sorry, i cant remember the questions i kinda went into autopilot during the interview but im going to go through my notes and update this if i do remember System Design: given a mock up (it was a check in app for a clinic) walk through how to create this but interviewer focused on endpoints needed to integrate frontend and backend, pagination, load balancing
-> - Coding: React frontend component 1: relative time widget, given a date create a component that displays just now, less than a minute ago, n days, n weeks, n months, n years
-> - Coding: React frontend component 2: FAQ page accordion -> additional requirements: 1000 questions, show likes of a question, what API endpoints needed, pagination
-> - Coding: React frontend component 3: Tic tac toe game, algorithm for finding winner
->
-> Additional Notes:
->
-> - All coding rounds were done on a plain text editor
-> - I was able to choose which language/framework to use
-> - It was 30 mins behavioural, 30 mins for coding/system design
-> - Dont just wing behavioural questions, they are a big deal and factor
 
 For more insider tips, visit [GreatFrontEnd](https://www.greatfrontend.com/?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook)!

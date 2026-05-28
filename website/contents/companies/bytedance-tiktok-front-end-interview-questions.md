@@ -18,11 +18,25 @@ ByteDance/TikTok's front end interview is quite balanced in terms of interview f
   - [Practice question](https://www.greatfrontend.com/questions/javascript/promise-all?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Free)
 - Implement a function which extends `Array.prototype`.
   - [Practice questions](https://www.greatfrontend.com/questions?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook)
+- Implement a polyfill of `Function.prototype.bind` — handle the `new` keyword correctly.
+  - [Practice question](https://www.greatfrontend.com/questions/javascript/function-bind?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Paid)
+- Implement Map Async Limit (the "solution 4" variant — async-iterator-based, not just Promise.all chunking).
+  - [Practice question](https://www.greatfrontend.com/questions/javascript/map-async-limit?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Free)
+- Implement a `compose` middleware function so that async middlewares like Koa-style `f1`, `f2`, `f3` (each calling `next()`) execute in the correct nested order.
+  - [Practice question](https://www.greatfrontend.com/questions/javascript/compose?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Paid)
+- React-like VDOM but instead of creating DOM nodes, output an HTML string given an input object with `type` and `attributes`.
+- JavaScript quiz: given a list of Promises with console statements, determine the order they will print.
 
 ## User interface coding questions
 
 - Implement a dropdown component.
   - [Read answer](https://www.greatfrontend.com/questions/system-design/dropdown-menu?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Paid)
+- Implement a transfer list component (move items between two lists with select-and-shift). Note: TikTok interviews on Lark, which doesn't render React — you code in a Node.js env without being able to test live UI, so write clean markup and explain as you go.
+  - [Practice question](https://www.greatfrontend.com/questions/user-interface/transfer-list?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Free)
+
+## System design questions
+
+- Project deep-dive design round (~50 minutes): walk through one of your past projects, draw a flowchart of the workflow, and discuss potential improvements. Be ready to explain why you want to join TikTok.
 
 ## Quiz questions
 
@@ -44,6 +58,16 @@ _Source: [Glassdoor ByteDance Front End Developer Interview Questions](https://w
 ## Insider tips from the GreatFrontEnd community
 
 These tips were shared by [GreatFrontEnd](https://www.greatfrontend.com/?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) users who have completed interviews with ByteDance/TikTok.
+
+**8th May 2026**:
+
+> Just wrapped my 4th round with a technical manager at TikTok: more projects/resume grilling, heavy on trivia, UI coding, slightly behavioral but more so testing your engineering thinking than collaboration. The TM's general advice was that for new grads, big project experience isn't strictly expected — they're evaluating thought process. Basically know every tech you put on your resume inside and out, and be able to talk about coding with AI.
+>
+> Also: being able to speak Chinese for the non-technical parts of the interview definitely helped with rapport, even if you do the technical portion in English.
+
+**16th Apr 2026**:
+
+> TikTok loop for me was projects/resume grill, basic system design + trivia, and an algorithms question. No behavioral round in the early loop. They're pushing AI in almost every aspect of the product, so expect questions around it.
 
 **17th Nov 2024**:
 
@@ -70,9 +94,5 @@ These tips were shared by [GreatFrontEnd](https://www.greatfrontend.com/?utm_sou
 **8th Aug 2024**:
 
 > Had my first round tiktok frontend engineer interview. Not sure on the level but I told them I have 3 YOE so maybe 2-1? Strange interview tbh. There was a huge language barrier and it was difficult to build rapport with the interviewer (my interview was at night so I had someone overseas). Very difficult to read. First 20 minutes was talking about past projects/experiences/challenges, then a React coding question, then a JS quiz question, and then an untagged tiktok LC med... I asked some good questions about the company imo but the interviewer could barely answer it. I tried my best but it was not a collaborative interview at all and more of a test so it was challenging for me. I think it was a lot for an hour and we ended up going over time
-
-**18th Jun 2024**:
-
-> Had a second round interview with TikTok, thought I did good but didn't go through. I was asked transfer list, implemented it quick, but they interview on Lark which doesn't support React and you code in nodejs env, so no way to test anything that you write. Second question was react like VDom but instead of creating a DOM you just create a HTML string output given an input object with type and attributes. Maybe it was transfer list implementation. which I didn't compose using different components.
 
 For more insider tips, visit [GreatFrontEnd](https://www.greatfrontend.com/?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook)!

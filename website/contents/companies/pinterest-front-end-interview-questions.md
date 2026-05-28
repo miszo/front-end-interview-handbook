@@ -6,9 +6,22 @@ description: Get insider Pinterest front end interview tips from real candidates
 
 :::info Latest version on GreatFrontEnd
 
-Find more company guides on [GreatFrontEnd](https://www.greatfrontend.com/interviews/company?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook).
+Find the latest version of this page on [GreatFrontEnd's Pinterest Front End Interview Guide](https://www.greatfrontend.com/interviews/company/pinterest/questions-guides?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook).
 
 :::
+
+Pinterest's onsite is typically 1 Algo round, 1 Frontend Coding (React), 1 Frontend System Design, and 1 Behavioral round. Confirm with your recruiter whether you'll be on the FE track or full-stack track — the loops differ.
+
+## JavaScript coding questions
+
+- "Can you win" — variant of LeetCode Jump Game I/II. Medium-level DSA, you should be able to solve 2 in 20-30 minutes.
+- Given an array of integers like `[1,2,0,4,3]` and a starting index, return `true` if you can reach a `0` value. Each value is how many steps left/right you can move (you must take exactly that many). Wrap around from end to start when you run out of room. Solve recursively with visited-index tracking, then convert to an iterative queue-based solution as a follow-up.
+- Given a stream of comments, detect inappropriate language. Requires a trie data structure.
+
+## System design questions
+
+- Design Pinterest (masonry feed) — Pinterest's own "masonry component" / dynamic image positioning is a popular reference for this round.
+  - [Read answer](https://www.greatfrontend.com/questions/system-design/pinterest?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Paid)
 
 ## Insider tips from the GreatFrontEnd community
 

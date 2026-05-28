@@ -3,9 +3,42 @@ title: Canva Front End Interview Questions
 sidebar_label: Canva interview questions
 ---
 
+:::info Latest version on GreatFrontEnd
+
+Find the latest version of this page on [GreatFrontEnd's Canva Front End Interview Guide](https://www.greatfrontend.com/interviews/company/canva/questions-guides?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook).
+
+:::
+
+## JavaScript coding questions
+
+- Standard promise-based JS question (the kind common in most practice sets).
+- "Language proficiency" round: build an **in-memory comment service in TypeScript**. Prep covers DOM mutations, event handling, async, and core JavaScript fundamentals. They send a starter pack of HTML/CSS/JS files ahead of time — set up your TypeScript environment before the interview.
+
+## User interface coding questions
+
+- Implement the logic for a crossword-style game. Starter code is provided. Clarify the game rules early — they're not always obvious.
+- AI-assisted coding round: design a fully React-based editor with React components and allow users to add their own components. Practical follow-ups involve HTML5 canvas, drag-and-drop zones (`react-dnd`), and libraries like GrapeJS / CraftJS for modular drag-and-drop editors.
+
+## System design questions
+
+- Build a production-grade Figma clone (drawing tool).
+  - [Read answer](https://www.greatfrontend.com/questions/system-design/design-drawing-tool-figma-canva?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Paid)
+- Discuss design of Netflix, Uber, or Google Docs (sent ahead of time as example questions).
+  - [Read answer (Netflix)](https://www.greatfrontend.com/questions/system-design/video-streaming-netflix?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Paid)
+  - [Read answer (Google Docs)](https://www.greatfrontend.com/questions/system-design/collaborative-editor-google-docs?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Paid)
+- "Pop quiz" style system design: what client-side tech to use when scaling an SPA, what is an SPA, what are the alternatives.
+
 ## Insider tips from the GreatFrontEnd community
 
 These tips were shared by [GreatFrontEnd](https://www.greatfrontend.com/?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) users who have completed interviews with Canva.
+
+**10th Feb 2026**:
+
+> It looks like Canva has updated their process — my guide mentions an AI-Assisted Programming (AIP) round instead of the standard DSA/LeetCode screen. There's also a System Design & Architecture session that's very backend-heavy. If you're prepping, expect questions to focus more on backend depth in the system design and on AI-tool fluency in coding, not pure DSA.
+
+**29th Sep 2025**:
+
+> I interviewed for the Frontend SSE role at Canva about 4 years ago and there wasn't anything too leetcode-y. One round was a fairly standard promise-based JS question, the kind you often see in practice sets. Another was UI-focused — implement the logic for a crossword-style game. There was some starter code so I had to build on top of it, and I'll admit I didn't fully understand the game rules during the interview. Clarify the rules early before you start coding.
 
 **17th June 2025**:
 

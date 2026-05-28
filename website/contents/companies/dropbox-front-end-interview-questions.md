@@ -25,14 +25,19 @@ Refer to the [full official Dropbox Web Developer Interview Preparation Guide](/
 ## User interface coding questions
 
 - Build an image gallery using JavaScript, HTML, CSS.
-  - [Read answer](https://www.greatfrontend.com/questions/system-design/image-carousel?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Free)
+  - [Read answer](https://www.greatfrontend.com/questions/system-design/image-carousel?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Paid)
 - Forming words from mobile keypad.
 - Build a UI that fetches data from a weather API that is matching a design spec.
 - Build a UI that matches a design spec of one of the pages on the Dropbox homepage.
+- Build a React component in CoderPad with a focus on business logic (CSS and UI styling are not emphasized; `useContext` and `useRef` are usually not relevant).
 
 ## System design questions
 
 - Design Google calendar.
+- Add internationalization (i18n) to a website — discuss approaches and tradeoffs.
+- Design Google Sheets (collaborative spreadsheet).
+  - [Read answer](https://www.greatfrontend.com/questions/system-design/collaborative-spreadsheet-google-sheets?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Paid)
+- Design an API for a restaurant reservation system (API design round — fullstack-flavored).
 
 ## Algorithm
 

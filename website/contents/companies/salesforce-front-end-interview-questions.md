@@ -10,12 +10,23 @@ Find more company guides on [GreatFrontEnd](https://www.greatfrontend.com/interv
 
 :::
 
-Not much is known about Salesforce's front end interview process.
+Not much is known about Salesforce's front end interview process. Recent Discord reports indicate the SMTS Frontend loop is mostly DSA / LeetCode rather than UI coding — confirm the loop format with your recruiter early. The LMTS pipeline includes a HackerRank code-review assessment.
 
-## Coding
+## JavaScript coding questions
 
 - Flatten a nested array.
   - [Practice question](https://www.greatfrontend.com/questions/javascript/flatten?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Free)
+- LeetCode-style: "high five problem" variant (sort + average scores per student).
+- LeetCode-style: calculate the distance a robot has moved given a sequence of instructions.
+- OA dynamic programming: grouping of CPU tasks (2D DP), medium/hard difficulty.
+
+## User interface coding questions
+
+- 2 React questions in CoderPad (recent variant of the SMTS loop) — you're asked upfront if you're comfortable coding in React before they pick problems.
+
+## System design questions
+
+- Final-round system design or class-design round (loop varies; confirm with recruiter which one you'll get).
 
 ## Quiz questions
 
@@ -31,6 +42,14 @@ _Source: [Glassdoor Salesforce UI Developer Interview Questions](https://www.gla
 ## Insider tips from the GreatFrontEnd community
 
 These tips were shared by [GreatFrontEnd](https://www.greatfrontend.com/?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) users who have completed interviews with Salesforce.
+
+**5th Aug 2025**:
+
+> Just got rejected from Salesforce's LMTS code review assessment on HackerRank. Feeling pretty deflated — recruiter just said I "didn't exceed the cutoff" and that's it, no specifics on what they were looking for. If you're going through this round, try to clarify with the recruiter whether they're scoring on finding bugs, code quality, best practices, or speed/test cases — it really helps to know the rubric in advance.
+
+**24th Apr 2025**:
+
+> Interviewed for Salesforce SMTS (Frontend). Strange part: there's no frontend round in the loop. It's only DSA and system design, despite the title saying frontend. Worth confirming the loop format with the recruiter early so you can prep accordingly.
 
 **25th Apr 2025**:
 

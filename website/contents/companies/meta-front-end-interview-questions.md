@@ -6,9 +6,34 @@ description: Master Meta front end interviews with real insider tips, coding cha
 
 :::info Latest version on GreatFrontEnd
 
-Find more company guides on [GreatFrontEnd](https://www.greatfrontend.com/interviews/company?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook).
+Find the latest version of this page on [GreatFrontEnd's Meta Front End Interview Guide](https://www.greatfrontend.com/interviews/company/meta/questions-guides?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook).
 
 :::
+
+Meta does not delete leaked questions from its question bank. Working through the top 100–250 Meta-tagged LeetCode questions is a high-leverage prep strategy. Frontend pipeline interviews are FE-focused: candidates have reported being caught off guard by JS-utility-style questions like Event Emitter and `classnames` when expecting pure DSA.
+
+## JavaScript coding questions
+
+- Implement an Event Emitter (Emitter Pattern).
+  - [Practice question](https://www.greatfrontend.com/questions/javascript/event-emitter?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Free)
+- Implement `classnames` — combine class names from strings, arrays, and conditional objects.
+  - [Practice question](https://www.greatfrontend.com/questions/javascript/classnames?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Free)
+- Implement a `Decryption` class — focuses on managing async operations and a callback queue. The provided `decryptEncrypt(key, payload, callback)` generates a new key per call; your class must enqueue callbacks and process them in order as decryption completes. (The name is misleading — it's an async-operations question, not a security question.)
+- Find the identical DOM node in two identical trees: given a node in one tree, locate the equivalent node in the other tree by reference. Efficient solution: walk up via `parentNode`, record the path, then replay the path in the other tree (avoids touching unrelated nodes vs. DFS/BFS).
+
+## User interface coding questions
+
+- Sticky ads on scroll: implement an ad element that follows the user as they scroll. Throttle is preferred over debounce here because the ad must reposition during the scroll, not after it ends.
+
+## System design questions
+
+- Design a Data Table component (frequent FE system design round).
+  - [Read answer](https://www.greatfrontend.com/questions/system-design/data-table?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Paid)
+- Design Autocomplete (common Meta system design question).
+  - [Read answer](https://www.greatfrontend.com/questions/system-design/autocomplete?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Free)
+- Design a News Feed (Facebook-style).
+  - [Read answer](https://www.greatfrontend.com/questions/system-design/news-feed-facebook?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook) (Free)
+- Use the RADIO framework to approach Meta FE system design rounds.
 
 ## Insider tips from the GreatFrontEnd community
 

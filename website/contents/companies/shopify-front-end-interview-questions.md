@@ -6,9 +6,13 @@ description: Ace your Shopify front end interview with real questions, insider t
 
 :::info Latest version on GreatFrontEnd
 
-Find more company guides on [GreatFrontEnd](https://www.greatfrontend.com/interviews/company?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook).
+Find the latest version of this page on [GreatFrontEnd's Shopify Front End Interview Guide](https://www.greatfrontend.com/interviews/company/shopify/questions-guides?utm_source=frontendinterviewhandbook&utm_medium=referral&gnrs=frontendinterviewhandbook).
 
 :::
+
+## User interface coding questions
+
+- "Roomba" pair-programming problem: build an app where a Roomba icon moves on a 10×10 grid. It responds to `onClick` for movement and must turn when it hits the end of the grid (use CSS `transform`). Tests `ref` usage and responsive design.
 
 ## Insider tips from the GreatFrontEnd community
 
